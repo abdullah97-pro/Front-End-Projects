@@ -33,6 +33,38 @@
         #tb1 tr td:last-child {
             text-align: right;
         }
+
+        #tb2 {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #tb2 th {
+            border: 1px solid black;
+            text-transform: uppercase;
+            background-color: rgb(113, 113, 232);
+            color: white;
+        }
+        #tb2 td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        #tb2 tr td:nth-child(2) {
+            text-align: left;
+            padding-left: 10px;
+        }
+        #tb2 tr:nth-child(odd) {
+            background-color: rgb(156, 155, 156);
+        }
+
+        #tb3 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #tb3 td {
+            width: 20%;
+            border: 1px solid;
+        }
     </style>
 </head>
 <body>
@@ -74,6 +106,79 @@
             <th>qty</th>
             <th>price</th>
             <th>total</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Script</td>
+            <td>5</td>
+            <td>100$</td>
+            <td>500$</td>
+        </tr>
+    </table>
+
+    <table id="tb3">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Sub Total:</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Tax 15%:</td>
+            <td>$150</td>
         </tr>
     </table>
 </body>
