@@ -5,12 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        ul {
+        /* ul {
             list-style-type: decimal;
         }
         ul li ul {
             list-style-type: lower-roman;
+        } */
+        /* h1 {
+            background-color: blue;
         }
+
+        a {
+            background-color: red;
+        } */
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 3px;
+        }
+
+        .box2 {
+            background-color: red;
+        }
+
+        #d1 {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+
     </style>
 </head>
 <body>
@@ -22,7 +47,7 @@ dl -> description list
 dt -> description term
 dd -> description definition
 -->
-
+<!-- 
     <ol type="A">
         <li>Front-End
             <ol type="i">
@@ -60,7 +85,34 @@ dd -> description definition
         <dd>JavaScript</dd>
         <dd>React</dd>
         <dt>Back-End</dt>
-    </dl>
+    </dl> -->
+
+    <!-- 
+    block element
+    inline element
+    -->
+
+    <!-- <h1>Heading 1</h1>
+    <h1>Heading 2</h1>
+
+    <a href="#">text 1</a>
+    <a href="#">text 2</a> -->
+
+    <!-- 
+    div -> block element
+    span -> inline element
+    -->
+
+    <!-- 
+    web page: class name -> multiple / duplicate
+    id name -> once / can not duplicate
+    -->
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1 box2"></div>
+
+    <div id="d1"></div>
+
 
 </body>
 </html>
