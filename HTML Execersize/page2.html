@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: decimal;
+        }
+        ul li ul {
+            list-style-type: lower-roman;
+        }
+    </style>
+</head>
+<body>
+<!-- 
+ol -> ordered list
+ul -> unordered list
+li -> list
+dl -> description list    
+dt -> description term
+dd -> description definition
+-->
+
+    <ol type="A">
+        <li>Front-End
+            <ol type="i">
+                <li>JavaScript</li>
+                <li>React</li>
+            </ol>
+        </li>
+        <li>Back-End
+            <ol>
+                <li>Node</li>
+            </ol>
+        </li>
+    </ol>
+
+    <ul>
+        <li>Front-End
+            <ul>
+                <li>JavaScript</li>
+                <li>React
+                    <ul>
+                        <li>Component</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Back-End
+            <ul>
+                <li>Node</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <dl>
+        <dt>Front-End</dt>
+        <dd>JavaScript</dd>
+        <dd>React</dd>
+        <dt>Back-End</dt>
+    </dl>
+
+</body>
+</html>
