@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            width: 100%;
+            height: 300px;
+            background-color: black;
+        }
+        nav {
+            width: 90%;
+            height: 50px;
+            background-color: red;
+            margin: auto;
+        }
+        main {
+            width: 100%;
+            height: 100vh;
+            background-color: pink;
+        }
+        #left,
+        #right {
+            width: 15%;
+            height: 600px;
+            background-color: blue;
+        }
+        #left {
+            float: left;
+        }
+        #right {
+            float: right;
+        }
+        #content {
+            width: 70%;
+            height: 100%;
+            background-color: green;
+            float: left;
+        }
+        article:first-child {
+            width: 100%;
+        }
+        article {
+            width: 48%;
+            height: 25%;
+            background-color: orange;
+            float: left;
+            margin: 3px;
+        }
+        mark {
+            background-color: red;
+        }
+        img {
+            width: 100px;
+        }
+        .box {
+            overflow: auto;
+        }
+        footer {
+            width: 100%;
+            height: 300px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    *article
+    *section
+    *header
+    *footer
+    *main
+    *nav
+    *aside
+    *mark
+    *time
+    *details
+    *summary
+    *figure
+    *figcaption
+    -->
+
+    <header></header>
+    <nav></nav>
+    <main>
+        <aside id="left"></aside>
+        <section id="content">
+            <article>
+                Lorem ipsum <mark>dolor sit amet consectetur</mark> adipisicing elit. Nulla nemo sit eius, voluptates molestiae vero repellendus voluptatibus eligendi dicta distinctio pariatur neque dignissimos, ea deserunt porro. Temporibus, odio quos. Rerum.
+                <figure>
+                    <img src="./image/2.jpg" alt="">
+                    <figcaption>Programmer</figcaption>
+                </figure>
+            </article>
+            <article>
+                Lorem <time datetime="2025-12-31">2025-12-31</time> ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo sit eius, voluptates molestiae vero repellendus voluptatibus eligendi dicta distinctio pariatur neque dignissimos, ea deserunt porro. Temporibus, odio quos. Rerum.
+            </article>
+            <article class="box">
+                <details>
+                    <summary>React</summary>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero beatae animi labore perferendis veritatis dolorem sint, assumenda ad illum architecto eos fugiat ratione quaerat officiis debitis, nihil ut esse eius.
+                    Ducimus corporis pariatur ex maiores eum sint voluptas nulla nemo sapiente. Maxime iure cupiditate at autem error vitae saepe consequatur. Porro eum cumque ratione laborum vel minus asperiores nostrum totam.
+                    Cupiditate quis id vel placeat animi omnis, fugiat nulla tenetur eligendi eum, perferendis aut totam itaque aliquam voluptate molestiae debitis harum corporis doloremque doloribus cum iusto magnam? Illo, necessitatibus labore?
+                    Quas vero, facilis perspiciatis fugiat doloribus harum commodi nostrum, illo nihil error nulla aliquid corporis. Quas iusto, deserunt ea voluptatibus eligendi esse minus, perspiciatis earum totam vel, facilis corporis! Soluta!
+                </details>
+                <details>
+                    <summary>Node</summary>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero beatae animi labore perferendis veritatis dolorem sint, assumenda ad illum architecto eos fugiat ratione quaerat officiis debitis, nihil ut esse eius.
+                    Ducimus corporis pariatur ex maiores eum sint voluptas nulla nemo sapiente. Maxime iure cupiditate at autem error vitae saepe consequatur. Porro eum cumque ratione laborum vel minus asperiores nostrum totam.
+                    Cupiditate quis id vel placeat animi omnis, fugiat nulla tenetur eligendi eum, perferendis aut totam itaque aliquam voluptate molestiae debitis harum corporis doloremque doloribus cum iusto magnam? Illo, necessitatibus labore?
+                    Quas vero, facilis perspiciatis fugiat doloribus harum commodi nostrum, illo nihil error nulla aliquid corporis. Quas iusto, deserunt ea voluptatibus eligendi esse minus, perspiciatis earum totam vel, facilis corporis! Soluta!
+                </details>
+                <details>
+                    <summary>Laravel</summary>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero beatae animi labore perferendis veritatis dolorem sint, assumenda ad illum architecto eos fugiat ratione quaerat officiis debitis, nihil ut esse eius.
+                    Ducimus corporis pariatur ex maiores eum sint voluptas nulla nemo sapiente. Maxime iure cupiditate at autem error vitae saepe consequatur. Porro eum cumque ratione laborum vel minus asperiores nostrum totam.
+                    Cupiditate quis id vel placeat animi omnis, fugiat nulla tenetur eligendi eum, perferendis aut totam itaque aliquam voluptate molestiae debitis harum corporis doloremque doloribus cum iusto magnam? Illo, necessitatibus labore?
+                    Quas vero, facilis perspiciatis fugiat doloribus harum commodi nostrum, illo nihil error nulla aliquid corporis. Quas iusto, deserunt ea voluptatibus eligendi esse minus, perspiciatis earum totam vel, facilis corporis! Soluta!
+                </details>
+                <details>
+                    <summary>Django</summary>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero beatae animi labore perferendis veritatis dolorem sint, assumenda ad illum architecto eos fugiat ratione quaerat officiis debitis, nihil ut esse eius.
+                    Ducimus corporis pariatur ex maiores eum sint voluptas nulla nemo sapiente. Maxime iure cupiditate at autem error vitae saepe consequatur. Porro eum cumque ratione laborum vel minus asperiores nostrum totam.
+                    Cupiditate quis id vel placeat animi omnis, fugiat nulla tenetur eligendi eum, perferendis aut totam itaque aliquam voluptate molestiae debitis harum corporis doloremque doloribus cum iusto magnam? Illo, necessitatibus labore?
+                    Quas vero, facilis perspiciatis fugiat doloribus harum commodi nostrum, illo nihil error nulla aliquid corporis. Quas iusto, deserunt ea voluptatibus eligendi esse minus, perspiciatis earum totam vel, facilis corporis! Soluta!
+                </details>
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo sit eius, voluptates molestiae vero repellendus voluptatibus eligendi dicta distinctio pariatur neque dignissimos, ea deserunt porro. Temporibus, odio quos. Rerum.
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo sit eius, voluptates molestiae vero repellendus voluptatibus eligendi dicta distinctio pariatur neque dignissimos, ea deserunt porro. Temporibus, odio quos. Rerum.
+            </article>
+        </section>
+        <aside id="right"></aside>
+    </main>
+    <footer></footer>
+
+</body>
+</html>
