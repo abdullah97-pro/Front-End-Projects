@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" method="post">
+        <label for="">Name</label>
+        <input type="text">
+
+        <br>
+        <label for="">address</label>
+        <textarea name="" id=""></textarea>
+
+        <br>
+        <select name="" id="">
+            <option value="">Afghanistan</option>
+            <option value="">Australia</option>
+            <option value="">NewZealand</option>
+        </select>
+
+        <br>
+        <select name="" id="">
+            <optgroup label="Afghanistan">
+                <option value="">Kabul</option>
+                <option value="">Herat</option>
+                <option value="">Helmand</option>
+            </optgroup>
+            <optgroup label="Australia">
+                <option value="">Canberra</option>
+                <option value="">Milbourn</option>
+                <option value="">Sedney</option>
+            </optgroup>
+            <optgroup label="NewZealand">
+                <option value="">Hamilton</option>
+                <option value="">Aukland</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <input list="cities">
+        <datalist id="cities">
+            <option value="Kabul">kabul</option>
+            <option value="Canberry">Canberry</option>
+            <option value="Hamilton">Hamilton</option>
+        </datalist>
+
+        <button type="submit">Save</button>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="">Username</label>
+            <input type="text"><br>
+            <label for="">Email</label>
+            <input type="email"><br>
+            <label for="">Password</label>
+            <input type="password">
+            <button type="submit">Login</button>
+        </fieldset>
+    </form>
+
+    <form action=""
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range"  id="a" name="a" value="50">
+    100 +
+    <input type="number" id="b" name="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    <input type="submit">
+    </form>
+
+</body>
+</html>
