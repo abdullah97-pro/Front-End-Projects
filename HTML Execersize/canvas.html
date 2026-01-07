@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <canvas id="mycanvas1" width="200" height="100" style="border: 1px solid #000;"></canvas>
+
+    <script>
+        var c = document.getElementById('mycanvas1');
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,100);
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,120);
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,140);
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,80);
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,60);
+
+        // ctx.beginPath();
+        // ctx.arc(95,50,20,0,2 * Math.PI);
+        // ctx.arc(95,40,30,0,2 * Math.PI);
+        // ctx.arc(95,40,40,0,2 * Math.PI);
+
+        // ctx.font = "20px Arial";
+        // ctx.fillText("Fanaven Technology",10,50);
+        // ctx.strokeText("Fanaven Technology",10,50);
+
+        ctx.stroke();
+
+        // var grd = ctx.createLinearGradient(0,0,200,0);
+        // var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+        // grd.addColorStop(0,"orange");
+        // grd.addColorStop(1,"white");
+
+        // ctx.fillStyle = grd;
+        // ctx.fillRect(10,10,150,80)
+
+    </script>
+
+</body>
+</html>

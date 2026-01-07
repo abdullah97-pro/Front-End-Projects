@@ -8,72 +8,34 @@
 <body>
     
     <form action="" method="post">
-        <label for="">Name</label>
-        <input type="text">
 
-        <br>
-        <label for="">address</label>
-        <textarea name="" id=""></textarea>
+        <input type="text" size="40" minlength="3" maxlength="15" placeholder="Enter Name" autofocus required> <br>
+        <input type="email" style="width: 400px;" > <br>
+        <input type="password"> <br>
+        <input type="checkbox"> <label for="">Dari</label>
+        <input type="checkbox"> <label for="">Pashto</label>
+        <input type="checkbox"> <label for="">English</label> <br>
+        <input type="text" value="30000" readonly> <br>
+        <input type="radio" name="gender"> <label for="">Male</label>
+        <input type="radio" name="gender"> <label for="">Female</label> <br>
+        <input type="date" disabled> <br>
+        <input type="datetime-local"> <br>
+        <input type="time"> <br>
+        <input type="month"> <br>
+        <input type="week"> <br>
+        <input type="color"> <br>
+        <input type="file" multiple> <br>
+        <input type="image" src="./image/1.jpg" width="300px"> <br>
+        <input type="search"> <br>
+        <input type="url" value="https://www."> <br>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="078-1234-123"> <br>
+        <input type="number" min="0" max="200" step="5"> <br>
+        <input type="range"> <br>
+        <input type="hidden" value="1">
 
-        <br>
-        <select name="" id="">
-            <option value="">Afghanistan</option>
-            <option value="">Australia</option>
-            <option value="">NewZealand</option>
-        </select>
+        <input type="reset">
+        <input type="submit">
 
-        <br>
-        <select name="" id="">
-            <optgroup label="Afghanistan">
-                <option value="">Kabul</option>
-                <option value="">Herat</option>
-                <option value="">Helmand</option>
-            </optgroup>
-            <optgroup label="Australia">
-                <option value="">Canberra</option>
-                <option value="">Milbourn</option>
-                <option value="">Sedney</option>
-            </optgroup>
-            <optgroup label="NewZealand">
-                <option value="">Hamilton</option>
-                <option value="">Aukland</option>
-            </optgroup>
-        </select>
-
-        <br>
-        <input list="cities">
-        <datalist id="cities">
-            <option value="Kabul">kabul</option>
-            <option value="Canberry">Canberry</option>
-            <option value="Hamilton">Hamilton</option>
-        </datalist>
-
-        <button type="submit">Save</button>
-    </form>
-
-    <form action="">
-        <fieldset>
-            <legend>Login</legend>
-            <label for="">Username</label>
-            <input type="text"><br>
-            <label for="">Email</label>
-            <input type="email"><br>
-            <label for="">Password</label>
-            <input type="password">
-            <button type="submit">Login</button>
-        </fieldset>
-    </form>
-
-    <form action=""
-    oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-    0
-    <input type="range"  id="a" name="a" value="50">
-    100 +
-    <input type="number" id="b" name="b" value="50">
-    =
-    <output name="x" for="a b"></output>
-    <br><br>
-    <input type="submit">
     </form>
 
 </body>
